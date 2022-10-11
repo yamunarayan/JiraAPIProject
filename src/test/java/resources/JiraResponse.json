@@ -1,0 +1,200 @@
+{
+  "expand": "renderedFields,names,schema,operations,editmeta,changelog,versionedRepresentations,customfield_10010.requestTypePractice",
+  "id": "10096",
+  "self": "https://pavi143.atlassian.net/rest/api/3/issue/10096",
+  "key": "TES-97",
+  "fields": {
+    "statuscategorychangedate": "2022-10-10T18:33:04.059+0530",
+    "issuetype": {
+      "self": "https://pavi143.atlassian.net/rest/api/3/issuetype/10003",
+      "id": "10003",
+      "description": "A problem or error.",
+      "iconUrl": "https://pavi143.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10303?size=medium",
+      "name": "Bug",
+      "subtask": false,
+      "avatarId": 10303,
+      "entityId": "713988fd-f547-4d2b-a261-dbf1d4d7823a",
+      "hierarchyLevel": 0
+    },
+    "timespent": null,
+    "project": {
+      "self": "https://pavi143.atlassian.net/rest/api/3/project/10000",
+      "id": "10000",
+      "key": "TES",
+      "name": "Testing",
+      "projectTypeKey": "software",
+      "simplified": true,
+      "avatarUrls": {
+        "48x48": "https://pavi143.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10417",
+        "24x24": "https://pavi143.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10417?size=small",
+        "16x16": "https://pavi143.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10417?size=xsmall",
+        "32x32": "https://pavi143.atlassian.net/rest/api/3/universal_avatar/view/type/project/avatar/10417?size=medium"
+      }
+    },
+    "fixVersions": [
+
+    ],
+    "aggregatetimespent": null,
+    "resolution": null,
+    "customfield_10027": null,
+    "customfield_10028": null,
+    "customfield_10029": null,
+    "resolutiondate": null,
+    "workratio": -1,
+    "issuerestriction": {
+      "issuerestrictions": {
+
+      },
+      "shouldDisplay": true
+    },
+    "lastViewed": null,
+    "watches": {
+      "self": "https://pavi143.atlassian.net/rest/api/3/issue/TES-97/watchers",
+      "watchCount": 1,
+      "isWatching": true
+    },
+    "created": "2022-10-10T18:33:03.722+0530",
+    "customfield_10020": null,
+    "customfield_10021": null,
+    "customfield_10022": null,
+    "priority": {
+      "self": "https://pavi143.atlassian.net/rest/api/3/priority/3",
+      "iconUrl": "https://pavi143.atlassian.net/images/icons/priorities/medium.svg",
+      "name": "Medium",
+      "id": "3"
+    },
+    "customfield_10023": null,
+    "customfield_10024": null,
+    "customfield_10025": null,
+    "customfield_10026": null,
+    "labels": [
+
+    ],
+    "customfield_10016": null,
+    "customfield_10017": null,
+    "customfield_10018": {
+      "hasEpicLinkFieldDependency": false,
+      "showField": false,
+      "nonEditableReason": {
+        "reason": "PLUGIN_LICENSE_ERROR",
+        "message": "The Parent Link is only available to Jira Premium users."
+      }
+    },
+    "customfield_10019": "0|i000bb:",
+    "timeestimate": null,
+    "aggregatetimeoriginalestimate": null,
+    "versions": [
+
+    ],
+    "issuelinks": [
+
+    ],
+    "assignee": null,
+    "updated": "2022-10-10T18:33:03.722+0530",
+    "status": {
+      "self": "https://pavi143.atlassian.net/rest/api/3/status/10000",
+      "description": "",
+      "iconUrl": "https://pavi143.atlassian.net/",
+      "name": "To Do",
+      "id": "10000",
+      "statusCategory": {
+        "self": "https://pavi143.atlassian.net/rest/api/3/statuscategory/2",
+        "id": 2,
+        "key": "new",
+        "colorName": "blue-gray",
+        "name": "To Do"
+      }
+    },
+    "components": [
+
+    ],
+    "timeoriginalestimate": null,
+    "description": null,
+    "customfield_10010": null,
+    "customfield_10014": null,
+    "customfield_10015": null,
+    "timetracking": {
+
+    },
+    "customfield_10005": null,
+    "customfield_10006": null,
+    "customfield_10007": null,
+    "security": null,
+    "customfield_10008": null,
+    "aggregatetimeestimate": null,
+    "customfield_10009": null,
+    "attachment": [
+
+    ],
+    "summary": "Sample issue summary",
+    "creator": {
+      "self": "https://pavi143.atlassian.net/rest/api/3/user?accountId=63065ce4b155e59f6955f544",
+      "accountId": "63065ce4b155e59f6955f544",
+      "emailAddress": "yamuna.jayaraman@gmail.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/4713ef7e60a165088e8048d6e5c8ecc8?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FY-6.png",
+        "24x24": "https://secure.gravatar.com/avatar/4713ef7e60a165088e8048d6e5c8ecc8?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FY-6.png",
+        "16x16": "https://secure.gravatar.com/avatar/4713ef7e60a165088e8048d6e5c8ecc8?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FY-6.png",
+        "32x32": "https://secure.gravatar.com/avatar/4713ef7e60a165088e8048d6e5c8ecc8?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FY-6.png"
+      },
+      "displayName": "Yamuna",
+      "active": true,
+      "timeZone": "Asia/Calcutta",
+      "accountType": "atlassian"
+    },
+    "subtasks": [
+
+    ],
+    "reporter": {
+      "self": "https://pavi143.atlassian.net/rest/api/3/user?accountId=63065ce4b155e59f6955f544",
+      "accountId": "63065ce4b155e59f6955f544",
+      "emailAddress": "yamuna.jayaraman@gmail.com",
+      "avatarUrls": {
+        "48x48": "https://secure.gravatar.com/avatar/4713ef7e60a165088e8048d6e5c8ecc8?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FY-6.png",
+        "24x24": "https://secure.gravatar.com/avatar/4713ef7e60a165088e8048d6e5c8ecc8?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FY-6.png",
+        "16x16": "https://secure.gravatar.com/avatar/4713ef7e60a165088e8048d6e5c8ecc8?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FY-6.png",
+        "32x32": "https://secure.gravatar.com/avatar/4713ef7e60a165088e8048d6e5c8ecc8?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FY-6.png"
+      },
+      "displayName": "Yamuna",
+      "active": true,
+      "timeZone": "Asia/Calcutta",
+      "accountType": "atlassian"
+    },
+    "aggregateprogress": {
+      "progress": 0,
+      "total": 0
+    },
+    "customfield_10001": null,
+    "customfield_10002": null,
+    "customfield_10003": null,
+    "customfield_10004": null,
+    "environment": null,
+    "duedate": null,
+    "progress": {
+      "progress": 0,
+      "total": 0
+    },
+    "comment": {
+      "comments": [
+
+      ],
+      "self": "https://pavi143.atlassian.net/rest/api/3/issue/10096/comment",
+      "maxResults": 0,
+      "total": 0,
+      "startAt": 0
+    },
+    "votes": {
+      "self": "https://pavi143.atlassian.net/rest/api/3/issue/TES-97/votes",
+      "votes": 0,
+      "hasVoted": false
+    },
+    "worklog": {
+      "startAt": 0,
+      "maxResults": 20,
+      "total": 0,
+      "worklogs": [
+
+      ]
+    }
+  }
+}

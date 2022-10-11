@@ -1,0 +1,26 @@
+{
+  "fields": {
+    "project": {
+      "key": "TES"
+    },
+    "summary": "Sample issue summary",
+    "issuetype": {
+      "name": "Bug"
+    },
+    "description": {
+      "type": "doc",
+      "version": 1,
+      "content": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "text": "description",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
