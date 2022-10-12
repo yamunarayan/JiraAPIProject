@@ -13,7 +13,7 @@ import java.util.List;
 
 public class JiraServiceRequestUsingBuilder {
     private Fields fields;
-    @Builder(toBuilder=true)
+
     @Data
     public static class Fields {
 
@@ -25,7 +25,7 @@ public class JiraServiceRequestUsingBuilder {
         private Issuetype issuetype;
         @JsonProperty("description")
         private Description description;
-        @Builder(toBuilder=true)
+
         @Data
         public static class Project {
 
@@ -33,7 +33,6 @@ public class JiraServiceRequestUsingBuilder {
             private String key;
 
         }
-        @Builder(toBuilder=true)
         @Data
         public static class Issuetype {
 
@@ -41,7 +40,7 @@ public class JiraServiceRequestUsingBuilder {
             private String name;
 
         }
-        @Builder(toBuilder=true)
+
         @Data
         public static class Description {
 
@@ -51,7 +50,7 @@ public class JiraServiceRequestUsingBuilder {
             private Integer version;
             @JsonProperty("content")
             private List<Content> content = null;
-            @Builder(toBuilder=true)
+
             @Data
             public static class Content {
 
@@ -59,7 +58,7 @@ public class JiraServiceRequestUsingBuilder {
                 private String type;
                 @JsonProperty("content")
                 private List<Content__1> content = null;
-                @Builder(toBuilder=true)
+
                 @Data
                 public static class Content__1 {
 
